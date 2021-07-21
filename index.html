@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-     <!-- <link rel="stylesheet" href="Style.css"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script src="brain.js"></script>
 </head>
 <body>
-    <div class="header" class="container" >
-        <h1 id="heading">  Shopping List</h1>
-    </div>
-    <div class="Main_List" class="container">
-        <tabel class="table table-hover">
-           <thead>
-            <tr>
-                <th>Items</th>
-                <th>Quantity</th>
-                <th>Price</th>
-              </tr>
-           </thead>
-            <tbody>
-            </tbody>
-        </tabel>    
-    </div>
+    <h2>Shopping List</h2>
+    <button onclick="addItems()">Add Items</button>
+    <button onclick="cow()">Clear</button>
+    <table id="table">
+     <tr>
+         <td>Items</td>
+         <td>Quantity</td>
+         <td>Price</td>
+         <td> </td>
+     </tr>
+
+    </table>
 </body>
 </html>
