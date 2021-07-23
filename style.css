@@ -1,0 +1,35 @@
+#button{
+    position:relative;
+    width: 150px;
+    left: 400px;
+    background-color:white;
+    border-radius:50px;
+}
+#button:hover{
+    background-color: blue;
+}
+#header{
+    position: relative;
+    color:rgb(153, 202, 18);
+    left: 450px;
+}
+body{
+   color: darkgray;
+}
+#table{
+    position:relative;
+    left: 450px;
+    padding:5px
+    width:100px;
+    color:white;
+    right: 30px;
+    border-width:3px;
+    border-color:green
+}
+tr{
+    border-width: 1px;
+    border-color: brown;
+}
+body{
+    background-color: black;
+}
